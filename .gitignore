@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ai-flow-demo/.vs/ai-flow-demo
+/ai-flow-demo/src/obj
+/src/obj/Debug
+/ai-flow-demo/src
