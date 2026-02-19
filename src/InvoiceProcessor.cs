@@ -46,4 +46,15 @@ namespace src
         void PostToSap(Invoice invoice) { }
         void MarkAsPosted(Invoice invoice) { }
     }
+    public class Invoice
+    {
+        public string Source { get; set; }
+        public string SupplierId { get; set; }
+        public string ErpType { get; internal set; }
+
+        internal bool IsValid()
+        {
+            return true;
+        }
+    }
 }
