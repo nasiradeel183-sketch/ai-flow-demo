@@ -44,5 +44,12 @@
     <Compile Include="InvoiceProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include=".github\workflows\ai-flow.yml" />
+    <None Include="package.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ai-flow-generator.js" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
