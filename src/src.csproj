@@ -48,5 +48,8 @@
   <ItemGroup>
     <Content Include="scripts\ai-flow-generator.js" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="package\package.json" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
